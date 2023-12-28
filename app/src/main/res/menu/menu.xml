@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addMenu"
+        android:title="ajouter"
+        android:icon="@drawable/addmenu"
+        app:showAsAction="always"
+        />
+    <item
+    android:id="@+id/tachSuprimerList"
+    android:title="tachSuprimerList"
+    android:icon="@drawable/delet"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/sortedByName"
+        android:title="sortedByName"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="never"
+        />
+    <item
+    android:id="@+id/sortedByNormal"
+    android:title="sortedByNormal"
+    android:icon="@android:drawable/ic_menu_delete"
+    app:showAsAction="never"
+    />  <item
+    android:id="@+id/sortedByEtateUrgent"
+    android:title="sortedByEtateUrgent"
+    android:icon="@android:drawable/ic_menu_delete"
+    app:showAsAction="never"
+    />
+
+
+
+</menu>

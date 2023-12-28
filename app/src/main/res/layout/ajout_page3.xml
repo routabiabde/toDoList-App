@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:id="@+id/ajouter"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Ajouter un tache"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:text="Title :"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="100dp"
+        />
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/rounded"
+        android:hint="Title"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="17dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:text="Description :"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="180dp"
+        />
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/rounded"
+        android:hint="Description"
+        android:inputType="text"
+
+        android:paddingStart="20dp"
+
+
+        android:textSize="17dp"
+        android:layout_marginTop="180dp"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:text="Date :"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="350dp"
+        />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/rounded"
+        android:hint="Date"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="17dp"
+        android:layout_marginTop="350dp"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:text="Status :"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingTop="15dp"
+        android:layout_marginTop="450dp"
+        />
+    <Spinner
+        android:id="@+id/EtatSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="200dp"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="550dp"
+        android:text="Sign up"
+        android:layout_marginLeft="50dp"
+        />
+
+
+
+
+</RelativeLayout>
